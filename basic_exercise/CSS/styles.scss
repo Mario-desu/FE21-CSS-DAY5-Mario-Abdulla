@@ -1,0 +1,55 @@
+
+$menu-background:#406EF4;
+$footer-background:#838D92;
+
+
+.container{
+    background-color: aquamarine;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction:row;
+    background-color:$menu-background ;
+    width: 100%;
+    align-items: center;
+    height: 8vw;
+    
+
+}
+
+header> nav {
+  ul {
+    margin: 0;
+   
+    list-style: none;
+    background: $menu-background;
+  }
+ 
+  li { display: inline-block; }
+ 
+  a {
+    display: block;
+    align-items: center;
+    padding:7px;
+    font-size: 1.3em;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:rgb(234, 234, 240);
+  }
+}
+
+#logo{
+   width: 11vw;
+   border-radius: 50%;
+   margin-left: 1rem;
+
+}
+
+main{
+    background-image: url(/basic_exercise/img/tesla.jpg);
+}
+
