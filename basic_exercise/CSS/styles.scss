@@ -2,9 +2,13 @@
 $menu-background:#406EF4;
 $footer-background:#838D92;
 
+* {
+    ;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 
 .container{
-    background-color: aquamarine;
     width: 90%;
     margin: 0 auto;
     padding: 0 auto;
@@ -29,27 +33,32 @@ header> nav {
     background: $menu-background;
   }
  
-  li { display: inline-block; }
+  li { 
+      display: inline-block; 
+        font-size: 1.5em;    
+}
  
   a {
-    display: block;
+    
     align-items: center;
     padding:7px;
     font-size: 1.3em;
-    font-family:Arial, Helvetica, sans-serif;
     text-decoration: none;
     color:rgb(234, 234, 240);
   }
 }
 
 #logo{
-   width: 11vw;
+   width: 5.5vw;
    border-radius: 50%;
    margin-left: 1rem;
 
 }
 
 main{
+    height: 70vh;
     background-image: url(/basic_exercise/img/tesla.jpg);
+    color: white;
+    
 }
 
