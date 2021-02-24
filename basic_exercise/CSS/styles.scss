@@ -57,18 +57,18 @@ header> nav {
 }
 
 
-main {
+.tesla{
   
-   
+       width: 100%;
         height:400px;
         background-image: url(/basic_exercise/img/tesla.jpg);
         color: white;
  
-    // display:flex;
+    
     background-repeat: no-repeat;
     background-position: center;
-    /* object-fit: cover; */
-    font-family: "Nunito", sans-serif;
+     object-fit: cover; 
+    // font-family: "Nunito", sans-serif;
     color: #333;
     font-weight: 300;
     // line-height: 1.6; 
@@ -82,15 +82,31 @@ footer {
 }
 
 .text{
-    // margin-top: 2vw;
-    // margin-left: 5vw;
-   
+    padding-top: 6vw;
+    padding-left: 25vw;
+   align-items: center;
     // position: absolute;
     color:#ffff;
 
 
     align-items: center;
 }
-.text>h1{
+.text>h1, .text>p{
+    margin: 0;
+    padding: 0;
     align-items: center;
+}
+
+
+
+footer{
+    height :auto;   
+    p{
+    margin: 0;
+    padding: 0;
+    padding: 2vw 0;
+    font-size: 5vw;
+    text-align: center;
+    align-items: center; 
+}
 }
