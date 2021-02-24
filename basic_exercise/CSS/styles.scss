@@ -13,6 +13,8 @@ $fontFamily:Arial, Helvetica, sans-serif;
     width: 90%;
     margin: 0 auto;
     padding: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -68,6 +70,9 @@ header> nav {
  
     background-size: cover;
     background-position: center;
+    background-size: cover;
+     object-fit: cover; 
+    // font-family: "Nunito", sans-serif;
    
     color: #333;
     font-weight: 300;
