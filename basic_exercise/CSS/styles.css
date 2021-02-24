@@ -56,4 +56,9 @@ main {
   background-image: url(/basic_exercise/img/tesla.jpg);
   color: white;
 }
+
+footer {
+  height: 22vh;
+  background-color: grey;
+}
 /*# sourceMappingURL=styles.css.map */

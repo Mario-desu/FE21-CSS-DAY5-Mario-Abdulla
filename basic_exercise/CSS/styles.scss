@@ -48,17 +48,22 @@ header> nav {
   }
 }
 
-#logo{
+#logo{ 
    width: 5.5vw;
    border-radius: 50%;
    margin-left: 1rem;
 
 }
 
-main{
+main {
     height: 70vh;
     background-image: url(/basic_exercise/img/tesla.jpg);
     color: white;
     
+}
+
+footer {
+    height: 22vh;
+    background-color: grey;
 }
 
