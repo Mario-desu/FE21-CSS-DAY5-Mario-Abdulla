@@ -1,0 +1,64 @@
+body {
+  background-image: url(/advanced_exercise/img/p1.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* object-fit: cover; */
+  font-family: "Nunito", sans-serif;
+  color: #333;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-height: 800px;
+  margin: 2rem auto;
+}
+
+.header-container {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 4rem;
+  max-height: 800px;
+  -ms-grid-columns: (1fr)[8];
+      grid-template-columns: repeat(8, 1fr);
+  -ms-grid-rows: (0.5fr)[8];
+      grid-template-rows: repeat(8, 0.5fr);
+  grid-gap: 2rem;
+  background-color: rosybrown;
+}
+
+.header-item1 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 9;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 2;
+  background-color: saddlebrown;
+}
+
+.header-item2 {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: saddlebrown;
+}
+
+.header-item3 {
+  -ms-grid-column: 3;
+      grid-column-start: 3;
+  grid-column-end: 9;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 3;
+  background-color: saddlebrown;
+}
+/*# sourceMappingURL=styles.css.map */
